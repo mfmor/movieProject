@@ -10,7 +10,7 @@ class Storage {
       film = []
     }
     else (
-      film = JSON.parse(localStorage.getItem("films")) //filmleri arraye çevirir
+      film = JSON.parse(localStorage.getItem("films")) 
     )
 
     return film
